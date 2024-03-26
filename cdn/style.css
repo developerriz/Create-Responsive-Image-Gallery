@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.gallery {
+    border: 1px solid #131313;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery:hover {
+    border: 2px solid #3700ff;
+}
+
+div.about {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(228, 25, 255, 0.486);
+}
+
+.main-div {
+    padding: 0 5px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .main-div {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-div {
+        width: 100%;
+    }
+}
